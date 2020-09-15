@@ -52,7 +52,7 @@
         <a href="/">Recommendation carousels</a>
       </h1>
       <div
-        style="position: fixed; top: 40vh; left: 16px; padding: 16px; background: white; border-radius: 8px; box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.9);"
+        style="position: fixed; z-index: 500; top: 40vh; left: 16px; padding: 16px; background: white; border-radius: 8px; box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.9);"
       >
         <h3 style="margin-top: 0;">Choose a user</h3>
         <select id="user_select">
@@ -70,13 +70,8 @@
 
     <div class="container">
       <div class="search-panel">
-        <div class="carousels">
-          <!-- <div id="searchbox"></div>
-          <div id="hits"></div> -->
-        </div>
+        <div class="carousels"></div>
       </div>
-
-      <!-- <div id="pagination"></div> -->
     </div>
 
     <script src="https://cdn.jsdelivr.net/algoliasearch/3.32.0/algoliasearchLite.min.js"></script>
